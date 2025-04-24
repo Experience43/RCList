@@ -1,0 +1,21 @@
+{
+    "id": 58150142,
+    "name": "Akashic Records",
+    "author": "VoTcHi",
+    "creators": ["Rainspade", "LunaDreamer", "Yonaka", "iEstia", "Dreaming", "zaeus", "Estachi",
+                "Cloud72", "Zeta", "Seturan", "KireiMirai", "Vector", "Netflix", "Temp", "Beta Vulgaris",
+                "IIwapon77II", "Unigeny", "WhiteDwarf", "Lapis337", "Xiko", "Sepalum", "Phinix", "SyQual",
+                "Sikatsuka", "Rilliss77", "BeCruX", "Rainstorm", "Nisha", "Vismuth", "kmini"],
+    "verifier": "VoTcHi",
+    "verification": "https://youtu.be/qnZnV6q-mt4?si=wqUkvKJdof8GknA5",
+    "percentToQualify": "50",
+    "password": "002224",
+    "records": [
+        {
+            "user": "MadxSG",
+            "link": "https://youtu.be/iXDmKjFmX3k?si=AFsJce-_MlgPgDq2",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
