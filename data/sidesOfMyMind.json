@@ -1,0 +1,18 @@
+{
+    "id": 91042484,
+    "name": "Sides Of My Mind (Solo)",
+    "author": "MaxxoRMeN",
+    "creators": ["MaxxoRMeN"],
+    "verifier": "Rqd",
+    "verification": "https://youtu.be/d3d2KPVgCAk?si=FuiaRG9779E2OsY1",
+    "percentToQualify": "50",
+    "password": "123987",
+    "records": [
+        {
+            "user": "vapidf",
+            "link": "https://youtu.be/Ov_R78KjaXs",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
