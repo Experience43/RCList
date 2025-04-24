@@ -17,16 +17,21 @@
     {
         "role": "helper",
         "name": "List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "link": "#"
     },
     {
         "role": "trial",
         "name": "List Trial",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "link": "#"
     },
     {
         "role": "dev",
         "name": "Experience",
         "link": "https://youtube.com/@experience8285?si=fjiKwSr4SWa0-Y1a"
+    },
+    {
+        "role": "dev",
+        "name": "Anglified",
+        "link": "https://youtube.com/@anglified?si=789W-52HkOCQ6a40"
     }
 ]
