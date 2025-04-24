@@ -1,1 +1,20 @@
-
+{
+    "id": 51657783,
+    "name": "Sigma",
+    "author": "MindCAP",
+    "creators": ["Helpegasus", "Hadeon", "Fufafac", "Jenkins", "YakobNugget", "Isane", "Brittank88", "JaoDay", "Uneskladovae", 
+                "Soam", "HJfod", "Lemons", "Mactanow", "MikeWheelerFan", "Temp", "iNubble", "Majkomar", "Diris", "CairoX", 
+                "Walroose", "Surge", "lolwut", "Hoshikido", "Chlorines", "MindCap", "Juhou", "MystGMD04"],
+    "verifier": "Technical",
+    "verification": "https://youtu.be/3INdO0esQRw?si=dJErOKYzdTVrnD0L",
+    "percentToQualify": "50",
+    "password": "772002",
+    "records": [
+        {
+            "user": "MadxSG",
+            "link": "https://youtu.be/T34xJtz3C9g",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
