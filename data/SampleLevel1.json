@@ -1,18 +1,18 @@
 {
-    "id": 57436521,
-    "name": "SampleLevel1",
-    "author": "LevelUploader",
-    "creators": ["Creator1", "Creator2", "Creator3"],
-    "verifier": "Verifier",
-    "verification": "https://www.youtube.com/watch?v=ISTl28wKSXc",
-    "percentToQualify": 56,
-    "password": "Not Copyable",
+    "id": 54953085,
+    "name": "Thinking Space",
+    "author": "Atomic",
+    "creators": ["HidekiX"],
+    "verifier": "Atomic",
+    "verification": "https://youtu.be/iHf2nanWjvE?si=SMEVKqZAVZOD_dVR",
+    "percentToQualify": 50,
+    "password": "235236",
     "records": [
         {
-            "user": "Sample_Victor_1",
-            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "user": "Razlan",
+            "link": "https://youtu.be/2LV7MJMoVBU",
             "percent": 100,
-            "hz": 360
+            "hz": 144
         }
     ]
 }
