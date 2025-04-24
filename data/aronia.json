@@ -1,1 +1,19 @@
-
+{
+    "id": 60564010,
+    "name": "Aronia",
+    "author": "Exen",
+    "creators": ["Bird", "Isane", "Dimonkyky", "Synd", "DBlade", "Pineapple Cat", "Zml", "GrayRain", "Exen", 
+                "Greenevsky", "ettery"],
+    "verifier": "Kotamon",
+    "verification": "https://youtu.be/eJe3i5KyKOk?si=CjlR0TS1RTPMjIPE",
+    "percentToQualify": "50",
+    "password": "300320",
+    "records": [
+        {
+            "user": "MadxSG",
+            "link": "https://youtu.be/c3OfgUFUtIw",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
