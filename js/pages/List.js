@@ -103,7 +103,7 @@ export default {
                             {{ showEnglish ? 'Tukar ke Bahasa Melayu' : 'Switch to English' }}
                         </button>
                         
-                        <p v-for="(rule, index) in (showEnglish ? submissionRules.english : submissionRules.malay)" :key="index">{{ rule }}</p>
+                        <p v-for="(rule, index) in (showEnglish ? submissionRules.english : submissionRules.malay)" :key="index" v-html="rule"></p>
                 </div>
             </div>
         </main>
