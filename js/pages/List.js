@@ -101,7 +101,7 @@ export default {
                     <h3>Submission Requirements</h3>
                         <button @click="toggleLanguage" class="type-label-md" style="padding: 1rem; background-color: var(--color-on-primary); color: var(--color-primary); 
                         border-radius: 0.5rem; box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5); transition: transform 100ms ease;">
-                            {{ showEnglish ? 'Tukar ke Bahasa Melayu' : 'Switch to English' }}
+                            {{ showEnglish ? 'Switch to Malay' : 'Tukar ke Bahasa Inggeris' }}
                         </button>
                         
                         <p v-for="(rule, index) in (showEnglish ? submissionRules.english : submissionRules.malay)" :key="index" v-html="rule"></p>
