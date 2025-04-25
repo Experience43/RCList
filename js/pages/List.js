@@ -139,9 +139,8 @@ export default {
                     <button onclick = "translateText()"> Translate to English </button>
                 </div>
             </div>
-        </main>
 
-<script>
+            <script>
 function translateText() {
     document.getElementById("submission-text").innerHTML = `
         <p>1) As listed in other regulations, any "hacks" that give players an advantage are prohibited.</p>
@@ -150,6 +149,7 @@ function translateText() {
     `;
 }
 </script>
+        </main>
         
     `,
     data: () => ({
