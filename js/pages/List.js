@@ -99,7 +99,41 @@ export default {
                         </ol>
                     </template>
                     <h3>Submission Requirements</h3>
-                    <p> Work in Progress. :thumbsup:</p>
+                    <p> 1) Seperti di senarai yang lain, "hacks" yang memberi kelebihan kepada pemain adalah dilarang.</p>
+                    
+                    <p> 2) Bagi yang menggunakan "FPS Bypass", had maksimum adalah 360fps/bps.</p>
+                    
+                    <p> 3) Hanya warganegara Malaysia sahaja yang dibenarkan menghantar rekod mereka disini.	</p>							
+								
+                    <p> 4) Untuk level yang tiada dalam senarai Pointercrate, level tersebut akan diletakkan di senarai RCL menurut								
+                    pendapat pemain.</p>								
+                    								
+                    <p>5) Kustom LDM sesebuah level boleh digunakan selagi ia tidak memudahkan level tersebut dari segi visual, 								
+                    melainkan ia adalah LDM yang telah dibuat oleh penerbit level tersebut. Rujuk kepada penyelia jika was-was.</p>								
+                    								
+                    <p>6) "Skip" sesebuah level boleh digunakan selagi ia hampir tidak mengubah kesukarannya secara ketara. Melainkan 								
+                    "jika bahagian dalam level tersebut adalah bahagian tersusah, ""skip"" adalah dilarang.</p>						
+                    								
+                    <p>7) Rekod pertama dalam RCL mestilah disertakan dengan rakaman yang tidak disunting (raw footage).</p>							
+                    								
+                    <p>8) Rakaman bagi rekod mestilah disertakan dengan "attempt" sebelum level diselesaikan.</p>								
+                    								
+                    <p>9) Rekod mestilah disertakan dengan "endscreen" sesebuah level apabila ia sudah selesai. Ia bagi 								
+                    "mencegah pemain daripada menyunting rekod tersebut dengan menyorok status ""endscreen"".</p>						
+                    								
+                    <p>10) “Hacks” yang diharamkan oleh Pointercrate termasuk dalam peraturan RCL juga. Lihat di sini:</p>								
+                    								
+                    <p>11) Sekiranya pemain didapati menggunakan "hack" yang tidak dibenarkan oleh Pointercrate atau selainnya  								
+                    dan pemain tersebut menafikannya selepas disiasat, pemain tersebut akan disenarai hitam daripada 								
+                    menghantar rekod ke RCL selama yang diingin pemilik RCL.</p>							
+                    								
+                    <p>12) Rakaman mestilah sekurang-kurangnya 480p, atau pun selagi ia masih jelas untuk dilihat.</p							
+                    								
+                    <p>13) Click Between Frame (CBF) dilarang sama sekali.</p>							
+                    								
+                    <p>14) Physics Bypass adalah dilarang sesama sekali.</p>								
+                            <p>a) Tetapi rekod menggunakan ia sebelum 22hb November 2024, 12:00 tengah malam tidak akan terkesan.</p>
+                                        
                 </div>
             </div>
         </main>
