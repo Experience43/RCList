@@ -121,7 +121,7 @@ export default {
                     <p> 9) Rekod mestilah disertakan dengan "endscreen" sesebuah level apabila ia sudah selesai. Ia bagi 								
                     "mencegah pemain daripada menyunting rekod tersebut dengan menyorok status ""endscreen"". </p>						
                     								
-                    <p> 10) “Hacks” yang diharamkan oleh Pointercrate termasuk dalam peraturan RCL juga. Lihat di <a href = "https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit?usp=drivesdk" style = "color: lightblue;"><u> sini </u></a></p>								
+                    <p> 10) “Hacks” yang diharamkan oleh Pointercrate termasuk dalam peraturan RCL juga. Lihat di <a href = "https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit?usp=drivesdk" style = "color: #4454E0;"><u> sini </u></a></p>								
                     								
                     <p> 11) Sekiranya pemain didapati menggunakan "hack" yang tidak dibenarkan oleh Pointercrate atau selainnya  								
                     dan pemain tersebut menafikannya selepas disiasat, pemain tersebut akan disenarai hitam daripada 								
