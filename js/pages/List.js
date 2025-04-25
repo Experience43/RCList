@@ -98,6 +98,7 @@ export default {
                             </li>
                         </ol>
                     </template>
+                    <div id ="submission-text">
                     <h3>Submission Requirements</h3>
                     <p> 1) Seperti di senarai yang lain, "hacks" yang memberi kelebihan kepada pemain adalah dilarang. </p>
                     
@@ -133,10 +134,23 @@ export default {
                     								
                     <p> 14) Physics Bypass adalah dilarang sesama sekali. </p>								
                             <p> a) Tetapi rekod menggunakan ia sebelum 22hb November 2024, 12:00 tengah malam tidak akan terkesan. </p>
-                                        
+                            
+                    </div>
+                    <button onclick = "translateText()"> Translate to English </button>
                 </div>
             </div>
         </main>
+
+<script>
+function translateText() {
+    document.getElementById("submission-text").innerHTML = `
+        <p>1) As listed in other regulations, any "hacks" that give players an advantage are prohibited.</p>
+        <p>2) For those using "FPS Bypass", the maximum limit is 360fps/bps.</p>
+        <p>3) Only Malaysian citizens are allowed to submit their records here.</p>
+    `;
+}
+</script>
+        
     `,
     data: () => ({
         list: [],
