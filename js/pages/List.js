@@ -127,7 +127,7 @@ export default {
                     dan pemain tersebut menafikannya selepas disiasat, pemain tersebut akan disenarai hitam daripada 								
                     menghantar rekod ke RCL selama yang diingin pemilik RCL. </p>							
                     								
-                    <p> 12) Rakaman mestilah sekurang-kurangnya 480p, atau pun selagi ia masih jelas untuk dilihat. </p							
+                    <p> 12) Rakaman mestilah sekurang-kurangnya 480p, atau pun selagi ia masih jelas untuk dilihat. </p>					
                     								
                     <p> 13) Click Between Frame (CBF) dilarang sama sekali. </p>							
                     								
