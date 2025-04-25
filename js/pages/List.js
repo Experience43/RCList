@@ -99,40 +99,15 @@ export default {
                         </ol>
                     </template>
                     <h3>Submission Requirements</h3>
-                    <p> 1) Seperti di senarai yang lain, "hacks" yang memberi kelebihan kepada pemain adalah dilarang. </p>
-                    
-                    <p> 2) Bagi yang menggunakan "FPS Bypass", had maksimum adalah 360fps/bps. </p>
-                    
-                    <p> 3) Hanya warganegara Malaysia sahaja yang dibenarkan menghantar rekod mereka disini. </p>							
-								
-                    <p> 4) Untuk level yang tiada dalam senarai Pointercrate, level tersebut akan diletakkan di senarai RCL menurut								
-                    pendapat pemain. </p>								
-                    								
-                    <p> 5) Kustom LDM sesebuah level boleh digunakan selagi ia tidak memudahkan level tersebut dari segi visual, 								
-                    melainkan ia adalah LDM yang telah dibuat oleh penerbit level tersebut. Rujuk kepada penyelia jika was-was. </p>								
-                    								
-                    <p> 6) "Skip" sesebuah level boleh digunakan selagi ia hampir tidak mengubah kesukarannya secara ketara. Melainkan 								
-                    "jika bahagian dalam level tersebut adalah bahagian tersusah, ""skip"" adalah dilarang. </p>						
-                    								
-                    <p> 7) Rekod pertama dalam RCL mestilah disertakan dengan rakaman yang tidak disunting (raw footage). </p>							
-                    								
-                    <p> 8) Rakaman bagi rekod mestilah disertakan dengan "attempt" sebelum level diselesaikan. </p>								
-                    								
-                    <p> 9) Rekod mestilah disertakan dengan "endscreen" sesebuah level apabila ia sudah selesai. Ia bagi 								
-                    "mencegah pemain daripada menyunting rekod tersebut dengan menyorok status ""endscreen"". </p>						
-                    								
-                    <p> 10) “Hacks” yang diharamkan oleh Pointercrate termasuk dalam peraturan RCL juga. Lihat di <a href = "https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit?usp=drivesdk" style = "color: #4454E0;" target = "_blank"><u> sini </u></a></p>								
-                    								
-                    <p> 11) Sekiranya pemain didapati menggunakan "hack" yang tidak dibenarkan oleh Pointercrate atau selainnya  								
-                    dan pemain tersebut menafikannya selepas disiasat, pemain tersebut akan disenarai hitam daripada 								
-                    menghantar rekod ke RCL selama yang diingin pemilik RCL. </p>							
-                    								
-                    <p> 12) Rakaman mestilah sekurang-kurangnya 480p, atau pun selagi ia masih jelas untuk dilihat. </p>					
-                    								
-                    <p> 13) Click Between Frame (CBF) dilarang sama sekali. </p>							
-                    								
-                    <p> 14) Physics Bypass adalah dilarang sesama sekali. </p>								
-                            <p> a) Tetapi rekod menggunakan ia sebelum 22hb November 2024, 12:00 tengah malam tidak akan terkesan. </p>
+                        <button @click="toggleLanguage" class="type-label-md" style="margin-bottom: 1rem;">
+                            {{ showEnglish ? 'Tukar ke Bahasa Melayu' : 'Switch to English' }}
+                        </button>
+                        
+                        <p v-for="(rule, index) in (showEnglish ? submissionRules.english : submissionRules.malay)" :key="index">{{ rule }}</p>
+                        <p>
+                            10) <a href="https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit?usp=drivesdk" style="color: #4454E0;" target="_blank"><u>Click here for banned hacks list</u></a>
+                        </p>
+
                 </div>
             </div>
         </main>
@@ -145,7 +120,44 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        store
+        store,
+        showEnglish: false,
+        submissionRules: {
+            malay: [
+            'Seperti di senarai yang lain, "hacks" yang memberi kelebihan kepada pemain adalah dilarang.',
+            'Bagi yang menggunakan "FPS Bypass", had maksimum adalah 360fps/bps.',
+            'Hanya warganegara Malaysia sahaja yang dibenarkan menghantar rekod mereka disini.',
+            'Untuk level yang tiada dalam senarai Pointercrate, level tersebut akan diletakkan di senarai RCL menurut pendapat pemain.',
+            'Kustom LDM sesebuah level boleh digunakan selagi ia tidak memudahkan level tersebut dari segi visual, melainkan ia adalah LDM yang telah dibuat oleh penerbit level tersebut. Rujuk kepada penyelia jika was-was.',
+            '"Skip" sesebuah level boleh digunakan selagi ia hampir tidak mengubah kesukarannya secara ketara. Melainkan jika bahagian dalam level tersebut adalah bahagian tersusah, "skip" adalah dilarang.',
+            'Rekod pertama dalam RCL mestilah disertakan dengan rakaman yang tidak disunting (raw footage).',
+            'Rakaman bagi rekod mestilah disertakan dengan "attempt" sebelum level diselesaikan.',
+            'Rekod mestilah disertakan dengan "endscreen" sesebuah level apabila ia sudah selesai.',
+            '“Hacks” yang diharamkan oleh Pointercrate termasuk dalam peraturan RCL juga.',
+            'Sekiranya pemain didapati menggunakan "hack" yang tidak dibenarkan dan menafikannya selepas disiasat, pemain tersebut akan disenarai hitam daripada menghantar rekod ke RCL selama yang diingin pemilik RCL.',
+            'Rakaman mestilah sekurang-kurangnya 480p, atau pun selagi ia masih jelas untuk dilihat.',
+            'Click Between Frame (CBF) dilarang sama sekali.',
+            'Physics Bypass adalah dilarang sama sekali.',
+            'Tetapi rekod menggunakan ia sebelum 22hb November 2024, 12:00 tengah malam tidak akan terkesan.',
+        ],
+        english: [
+            'As in other lists, "hacks" that give players an unfair advantage are prohibited.',
+            'For those using "FPS Bypass", the maximum limit is 360fps/bps.',
+            'Only Malaysian citizens are allowed to submit their records here.',
+            'For levels not listed on Pointercrate, they will be placed in the RCL list according to player opinion.',
+            'Custom LDM for a level can be used as long as it does not make the level visually easier unless made by the level creator. Check with a moderator if unsure.',
+            '"Skips" can be used as long as they do not significantly reduce difficulty. If the skipped part is the hardest, it’s forbidden.',
+            'The first record in RCL must be accompanied by raw, unedited footage.',
+            'Recordings must include the "attempt" before completing the level.',
+            'Recordings must show the "endscreen" once the level is completed.',
+            'Hacks banned by Pointercrate also apply to RCL. See more at the provided link.',
+            'If a player is caught using prohibited hacks and denies it after investigation, they will be blacklisted from submitting to RCL for as long as desired by the owner.',
+            'Recordings must be at least 480p, or otherwise clear enough to view.',
+            'Click Between Frame (CBF) is strictly prohibited.',
+            'Physics Bypass is strictly prohibited.',
+            'However, records using it before 22nd November 2024, 12:00 midnight will not be affected.',
+        ]
+    }
     }),
     computed: {
         level() {
@@ -191,5 +203,8 @@ export default {
     methods: {
         embed,
         score,
+        toggleLanguage() {
+        this.showEnglish = !this.showEnglish;
+    }
     },
 };
