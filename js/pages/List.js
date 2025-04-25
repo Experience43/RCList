@@ -98,7 +98,6 @@ export default {
                             </li>
                         </ol>
                     </template>
-                    <div id ="submission-text">
                     <h3>Submission Requirements</h3>
                     <p> 1) Seperti di senarai yang lain, "hacks" yang memberi kelebihan kepada pemain adalah dilarang. </p>
                     
@@ -134,9 +133,6 @@ export default {
                     								
                     <p> 14) Physics Bypass adalah dilarang sesama sekali. </p>								
                             <p> a) Tetapi rekod menggunakan ia sebelum 22hb November 2024, 12:00 tengah malam tidak akan terkesan. </p>
-                            
-                    </div>
-                    <button onclick = "translateText()"> Translate to English </button>
                 </div>
             </div>
         </main>
