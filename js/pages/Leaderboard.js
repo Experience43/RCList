@@ -43,7 +43,7 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1 style = "color: #FFD700">#{{ selected + 1 }} {{ entry.user }}</h1>
+                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
                         <h3>{{ entry.total }}</h3>
                         <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
                         <table class="table">
