@@ -1,0 +1,18 @@
+{
+    "id": 63996127,
+    "name": "Cold Sweat",
+    "author": "para",
+    "creators": ["para", "Wulzy", "some neo-Nazi iirc"],
+    "verifier": "nSwish",
+    "verification": "https://youtu.be/tBpEPXGhQug",
+    "percentToQualify": "74",
+    "password": "-",
+    "records": [
+        {
+            "user": "DepresseChan",
+            "link": "https://www.youtube.com/watch?v=Zj9f-etieQY",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
